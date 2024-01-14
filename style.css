@@ -175,6 +175,10 @@ nav a:hover {
 }
 h2{
     color: rgb(15, 16, 53);
+    margin: 10px;
+}
+.summary p{
+    margin: 10px;
 }
 
 header {
@@ -183,6 +187,7 @@ header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
+    
 }
 
 /* Logo styling */
