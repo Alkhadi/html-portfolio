@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies - Alkhadi M Koroma</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-image: url('path-to-your-image.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .overlay {
+            background-color: rgba(170, 215, 217, 0.9); /* Overlay color with transparency */
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: rgb(127, 199, 217);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            flex: 1;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        nav input[type="search"] {
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        details {
+            background: #ffffff;
+            color: #000;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+        summary {
+            font-weight: bold;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::before {
+            content: '▶';
+            padding-right: 5px;
+        }
+
+        details[open] summary::before {
+            content: '▼';
+        }
+
+        footer {
+            background-color: #0F1035;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: auto; /* Push footer to the bottom */
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./asset/my-photo.jpeg" alt="Alkhadi M Koroma" class="logo">
+        </a>        
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a ></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><input type="search" placeholder="Search..."></li>
+                </ul>
+            </nav>
+        </header>   
+        <div class="overlay">
+            <div class="content">
+                <h1>My Hobbies 🌟</h1>
+                <details>
+                    <summary>Web Development & Technology 💻</summary>
+                    <p>
+                        Alkhadi's passion for web development and technology is more than just a profession; it's a constant adventure into learning and creativity. He sees every project as a canvas where he can bring his art to life. 🌐
+                    </p>
+                </details>
+                <details>
+                    <summary>Football ⚽</summary>
+                    <p>
+                        As a steadfast defender wearing the number 5 jersey, Alkhadi exhibits determination and strategic thinking on the pitch. Off the field, he cherishes the unity and excitement of football, and as a Manchester United fan, he never misses a chance to cheer for his team. 🛡️🔴⚫
+                    </p>
+                </details>
+                <details>
+                    <summary>Reading & Learning 📚</summary>
+                    <p>
+                        Books open up new worlds for Alkhadi. They fuel his innovative spirit and provide endless inspiration and knowledge that influence his work in technology. 📖
+                    </p>
+                </details>
+                <details>
+                    <summary>Driving & Running 🚗🏃</summary>
+                    <p>
+                        For Alkhadi, driving is a way to find freedom and clarity of mind. Running offers a rhythm to clear his thoughts and is a space for him to reflect on his next big idea. 🛣️
+                    </p>
+                </details>
+                <details>
+                    <summary>Cinema 🎬</summary>
+                    <p>
+                        A visit to the cinema is an occasional treat where he can relax and find new inspiration from the stories told on the big screen. 🍿
+                    </p>
+                </details>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <a href="./my-hobbies.html">My Hobbies</a> | 
+                <a href="./contact.html">Contact Me</a>
+            </div>
+            <div> &copy; 2024 Alkhadi M Koroma. All Rights Reserved</div>
+        </footer>
+    </body>
+    </html>
+    

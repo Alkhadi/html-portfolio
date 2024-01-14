@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Alkhadi M Koroma</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Times New Roman', serif;
+            line-height: 1.6;
+            background-color: rgba(54, 84, 134, 0.9);
+        }
+
+        body {
+            background: linear-gradient(rgba(15, 16, 53, 0.9), rgba(15, 16, 53, 0.9)), url('./asset/about-page-image.png') center/cover no-repeat;
+            flex-grow: 1;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(127, 199, 217);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .container {
+            margin: 0;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .column {
+            margin: auto;
+            padding: 10px;
+            max-width: 800px; /* Limiting maximum width */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            font-size: 1.5em; /* Adjusted font size for better readability */
+        }
+
+        details {
+            width: 100%;
+            cursor: pointer;
+            text-align: left;
+            padding: 10px;
+            border: 1px solid #ddd; /* Added border for better visibility */
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        summary {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::after {
+            content: '▼';
+            float: right; /* Positioned the marker to the right */
+        }
+
+        details[open] summary::after {
+            content: '▲';
+        }
+
+        footer {
+            background-color: rgb(15, 16, 53);
+            text-align: center;
+            padding: 5px 10px;
+          }
+    
+          footer a {
+            color: white;
+            text-decoration: none;
+          }
+    
+          footer a:hover {
+            text-decoration: underline;
+          }
+
+        @media screen and (max-width: 768px) {
+            .column, nav ul {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            nav li {
+                margin: 5px 0;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./asset/my-photo.jpeg" alt="Alkhadi M Koroma" class="logo">
+        </a>        <nav>
+            <ul>
+                <li><a href="./index.html">Home 🏠</a></li>
+                <li><a href="./about.html">About 🧑‍💼</a></li>
+                <li><a href="./contact.html">Contact 📞</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>About Me</h1>
+        <!-- Sections -->
+        <section class="column">
+            <h2>Professional Summary 🖥️</h2>
+            <details>
+                <summary>Read More</summary>
+                <p>As a seasoned Full Stack Web Developer, I bring a dynamic blend of creativity and technical expertise honed over five years in the industry. My passion lies in crafting, evolving, and guiding sophisticated web applications and websites from the ground up. With a firm grasp on a wide array of cutting-edge web technologies and frameworks, I specialize in developing scalable, efficient, and intuitively navigable digital solutions.<br><br> My approach is always user-centric, ensuring that each project not only aligns with but also surpasses business goals and user expectations. This commitment is reflected in my robust portfolio, showcasing a series of successful projects that span from initial concept to polished completion, each a testament to my dedication to excellence in the field of web development.</p>
+            </details>
+        </section>
+
+        <section class="column">
+            <h2>Education 🎓</h2>
+            <details>
+                <summary>Read More</summary>
+                <p>BSc Computer Science, Plymouth University UK, 2017. Relevant Coursework: Web Development, Computer Science, Software Engineering...</p>
+            </details>
+        </section>
+
+        <section class="column">
+            <h2>Professional Experience 💼</h2>
+            <details>
+                <summary>Read More</summary>
+                <ol>
+                    <li>2017 - Present</li>
+                    <p>Full Stack Web Developer</p>
+                    <li>2012 - 2017</li>
+                    <p>CEO At East Street Computer Repairs</p>
+                    <li>2009 - 2012</li>
+                    <p>Worked for Agora Market Computer Repair  Shop</p>
+                    <li>2005 - 2009</li>
+                    <p>Worked as a security officer</p>
+                </ol>
+                <p>
+                    Since 2017, I have thrived in the dynamic realm of freelance Full Stack Web Development, dedicating myself to the creation and meticulous refinement of high-caliber websites and applications. My portfolio, featuring notable projects such as https://www.ecomwwebsites.com, [elitecareplus.co.uk] https://www.elitecareplus.co.uk/, and impeccablehealthcare.co.uk  https://impeccablehealthcare.co.uk/, stands as a testament to my commitment to functional excellence and optimal performance.<br></br>
+
+                    In my journey, I have fostered close collaborations with clients, delving deep into their needs to devise and execute tailored web solutions that not only meet but also enhance their business objectives. I have consistently applied responsive design principles to ensure seamless functionality across diverse devices, thereby elevating user engagement and experience. <br></br>
+                    
+                    My role has encompassed the entire spectrum of the web development lifecycle, from conceptualizing innovative ideas and architecting robust designs to the thorough testing and deployment of the final product. A keen focus on optimizing website performance for speed and scalability, while adhering to SEO best practices, has been a cornerstone of my work ethic.<br></br>
+                    
+                    Further, my expertise extends to leveraging platforms like WordPress and Wix, where I bring websites to life through engaging, interactive elements, custom themes, and plugins. Integrating various third-party services and APIs, I have expanded the capabilities of these digital solutions, enhancing their utility and scope.<br></br>
+                    
+                    Quality assurance has always been paramount in my approach, with regular code reviews and rigorous testing forming an integral part of my workflow. This meticulous attention to detail ensures that any potential issues are swiftly identified and rectified, guaranteeing a smooth and reliable user experience.<br></br>
+                </p>
+            </details>
+        </section>
+
+        <section class="column">
+            <h2>Technical Skills</h2>
+            <details>
+                <summary>Read More</summary>
+                <p><span><b>Languages:</b></span>
+                    HTML5, CSS3, JavaScript, PHP,
+                    SQL Frameworks & Libraries: React, Angular, Node.js, Laravel
+                    <p><span><b>Database Management:</b></span>
+                    MySQL, MongoDB
+                    <p><span><b>Tools:</b></span>
+                    Git, Docker, AWS, Jenkins
+                    <p><span><b>CMS:</b></span>
+                    WordPress, Wix
+                    <p><span><b>Others:</b></span>
+                    Responsive Design, SEO Optimization, Agile Methodologie</p>
+            </details>
+        </section>
+
+        <section class="column">
+            <h2>Awards, Certifications 🎓</h2>
+            <details>
+                <summary>Read More</summary>
+                <ul>
+                    <li>University of Plymouth BSc Computer Science</li>
+                    <li>Udemy 100 Days Python Bootcamp</li>
+                    <li>Udemy Ultimate Web Development Bootcamp</li>
+                </ul>
+                <p>List of relevant awards, certifications, or other accomplishments...</p>
+            </details>
+
+            <h2>Current Training 🎓</h2>
+            <details>
+                <summary>Read More</summary>
+                <ul>
+                    <li>Udemy Ultimate Web Development Bootcamp</li>
+                    <li>Ultimate AWS Certified Solutions Architect Associate SAA-C03</li>
+                </ul>
+                <p>List of relevant awards, certifications, or other accomplishments...</p>
+            </details>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div><h2>Other</h2><a href="./my-hobbies.html">My Hobbies</a> | <a href="./contact.html">Contact Me</a></div>
+        <div> &copy; 2024 Alkhadi M Koroma. All Rights Reserved</div>
+    </footer>
+
+</body>
+</html>

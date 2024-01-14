@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Alkhadi M Koroma</title>
+    <style>
+      body {
+        background-image: url("path-to-your-image.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
+
+      header {
+        background-color: rgba(127, 199, 217);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+
+      .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+
+      nav a:hover {
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      .overlay {
+        background-color: rgba(170, 215, 217, 0.9);
+        padding: 20px;
+      }
+
+      .contact-info {
+        text-align: center;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      form {
+        max-width: 600px;
+        margin: auto;
+        background-color: rgba(127, 199, 217);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        resize: vertical;
+        max-height: 300px;
+      }
+
+      input[type="submit"] {
+        background-color: rgba(15, 16, 53);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+
+      footer {
+        background-color: rgb(15, 16, 53);
+        text-align: center;
+        padding: 5px 10px;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive Design */
+      @media screen and (max-width: 768px) {
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+          nav li {
+            margin: 5px 0;
+          }
+
+          .contact-info,
+          form {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="./asset/my-photo.jpeg" alt="Alkhadi M Koroma" class="logo">
+    </a>      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="overlay">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p><a href="tel:+447713150495">Tel: +447713150495</a></p>
+        <p>Email: <a href="mailto:momalkha@aol.com">momalkha@aol.com</a></p>
+        <p>
+          Website: <a href="http://purecareplus.co.uk">purecareplus.co.uk</a>
+        </p>
+        <address>
+          72 Priory Court<br />
+          1 Cheltenham Road<br />
+          London, United Kingdom<br />
+          SE153BG
+        </address>
+        <br />
+      </div>
+      <form action="mailto:momalkha@aol.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="text" name="surname" placeholder="Surname" required />
+        <input type="text" name="address" placeholder="Address" required />
+        <input
+          type="tel"
+          name="telephone"
+          placeholder="Telephone Number"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your message (up to 200 words)"
+          maxlength="200"
+          required
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+    <footer>
+      <div>
+        <h2>Other</h2>
+        <a href="./my-hobbies.html">My Hobbies</a> |
+        <a href="./contact.html">Contact Me</a>
+      </div>
+      <div>&copy; 2024 Alkhadi M Koroma. All Rights Reserved</div>
+    </footer>
+  </body>
+</html>
