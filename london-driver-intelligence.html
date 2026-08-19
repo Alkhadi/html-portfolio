@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="London Driver Intelligence, an independent Flutter and Android decision-support and postcode-learning project by Alkhadi M. Koroma.">
+  <title>London Driver Intelligence | Alkhadi M. Koroma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="identity" href="index.html"><img src="asset/my-photo.jpeg" alt="Alkhadi M. Koroma" class="logo"><span>Alkhadi M. Koroma</span></a>
+    <nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">Experience</a><a href="projects.html">Projects</a><a class="active" href="london-driver-intelligence.html">Driver App</a><a href="contact.html">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="product-hero">
+      <div>
+        <p class="eyebrow light">Independent Flutter / Android project</p>
+        <h1>London Driver<br><span>Intelligence</span></h1>
+        <p class="lead light-copy">A working Android prototype designed from real London private hire experience. It turns fast-disappearing trip-offer information into clear, configurable guidance while helping drivers build stronger postcode and congestion-area knowledge.</p>
+        <div class="actions"><a class="button cyan" href="#screenshots">View screenshot placeholders</a><a class="button dark-outline" href="about.html">View developer CV</a></div>
+      </div>
+      <div class="product-demo" aria-label="Illustrative application result">
+        <div class="demo-top"><span>Offer assessment</span><span class="live-dot">Prototype</span></div>
+        <div class="demo-result consider"><span>GUIDANCE</span><strong>CONSIDER JOB</strong><p>Close to your preferred hourly target. Review destination and mileage.</p></div>
+        <dl class="demo-data"><div><dt>Target</dt><dd>£30/hr</dd></div><div><dt>Estimate</dt><dd>£28/hr</dd></div><div><dt>Postcode</dt><dd>EC1</dd></div><div><dt>Alert</dt><dd>Congestion</dd></div></dl>
+        <p class="demo-caption">Illustrative interface. Final screens may change during development.</p>
+      </div>
+    </section>
+
+    <section class="product-facts" aria-label="Project facts">
+      <article><span>Platform</span><strong>Android</strong></article>
+      <article><span>Technology</span><strong>Flutter / Dart</strong></article>
+      <article><span>Stage</span><strong>Working prototype</strong></article>
+      <article><span>Role</span><strong>Solo developer</strong></article>
+    </section>
+
+    <section class="section product-story">
+      <div><p class="eyebrow">The problem</p><h2>Important details. Only a few seconds to decide.</h2></div>
+      <div><p>Private hire offers can appear briefly and may be repeated several times before disappearing. A driver may notice an attractive fare but not have enough time to compare pickup time, journey duration, distance, destination and congestion exposure.</p><p>London Driver Intelligence was created to reduce rushed decisions. It checks available offer data against the driver's own preferences and gives concise guidance. The driver remains responsible for the final decision and for using any device safely and lawfully.</p></div>
+    </section>
+
+    <section class="section surface-soft">
+      <div class="section-heading"><div><p class="eyebrow">Decision engine</p><h2>Personal rules, not one rule for every driver</h2></div></div>
+      <div class="decision-grid">
+        <article class="decision-card take"><span>TAKE</span><h3>Meets the target</h3><p>If the estimated return meets or exceeds the configured hourly target and no mileage or destination rule blocks it.</p></article>
+        <article class="decision-card consider"><span>CONSIDER</span><h3>Close to the target</h3><p>For example, a driver targeting £30 per hour may choose to review an offer estimated around £28 per hour.</p></article>
+        <article class="decision-card decline"><span>DECLINE</span><h3>Outside preferences</h3><p>If the return is below the driver's floor, mileage is excessive or another configured rule makes the offer unsuitable.</p></article>
+        <article class="decision-card review"><span>REVIEW</span><h3>Information incomplete</h3><p>If essential fare, time, distance or destination details cannot be read reliably, the app asks for manual checking.</p></article>
+      </div>
+
+      <article class="scenario-card">
+        <div><p class="eyebrow">Long-distance guard</p><h3>A high fare is not automatically a good trip</h3></div>
+        <div><p>An offer of £60 may appear to satisfy a £30 hourly target if the journey is shown as under two hours. But a journey covering 80 or 90 miles can still exceed the driver's preferred distance and create substantial return mileage and operating costs.</p><p>For higher-value or long-distance offers, the prototype checks fare, time and mileage together. A configured maximum-distance rule can therefore recommend declining an offer even when the hourly estimate appears acceptable.</p></div>
+      </article>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">London knowledge</p>
+        <h2>Postcodes and congestion, built into daily learning</h2>
+        <p>The app is also designed as a learning tool. A driver can enter a postcode manually to check whether the area is associated with the central London Congestion Charge zone, then practise with memory cards to recognise important postcode areas more quickly.</p>
+        <ul class="feature-list">
+          <li><strong>Manual postcode lookup:</strong> enter a postcode and receive a clear area or congestion indication.</li>
+          <li><strong>Memory cards:</strong> practise London postcode districts and high-priority areas.</li>
+          <li><strong>Offer warning:</strong> highlight a recognised congestion-area postcode during assessment.</li>
+          <li><strong>Knowledge first:</strong> help drivers rely less on last-second guesswork over time.</li>
+        </ul>
+      </div>
+      <div class="postcode-panel">
+        <span class="mini-label">MANUAL LOOKUP</span>
+        <div class="postcode-search"><strong>EC1M 5RJ</strong><span>CHECK</span></div>
+        <div class="postcode-result"><span>AREA GUIDANCE</span><strong>Congestion-area warning</strong><p>Review current official zone rules, operating hours and exemptions before travel.</p></div>
+        <div class="memory-card"><span>MEMORY CARD</span><strong>EC1</strong><p>City fringe and central London awareness</p></div>
+      </div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="section-heading"><div><p class="eyebrow light">How it works</p><h2>From captured offer to clear guidance</h2></div></div>
+      <div class="process-grid">
+        <article><span>1</span><h3>Capture</h3><p>Receive available offer information from an Android screen-capture workflow.</p></article>
+        <article><span>2</span><h3>Read</h3><p>Use OCR processing to identify fare, pickup, time, distance and destination fields.</p></article>
+        <article><span>3</span><h3>Validate</h3><p>Reject incomplete or unstable data instead of presenting false certainty.</p></article>
+        <article><span>4</span><h3>Assess</h3><p>Apply the driver's configured earnings, time, mileage and postcode preferences.</p></article>
+        <article><span>5</span><h3>Report</h3><p>Present concise visual and spoken guidance: take, consider, decline or review.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="screenshots">
+      <div class="section-heading"><div><p class="eyebrow">Product gallery</p><h2>Upload-ready screenshot positions</h2><p class="section-lead compact">These cards reserve consistent positions for real Android screenshots. They can be replaced without redesigning the page.</p></div></div>
+      <div class="screenshot-grid">
+        <figure class="screenshot-card"><div class="phone-placeholder"><span class="phone-notch"></span><b>01</b><strong>Offer decision</strong><small>Replace with live Take / Consider / Decline screen</small></div><figcaption><strong>Decision result</strong><span>Suggested file: app-decision-result.png</span></figcaption></figure>
+        <figure class="screenshot-card"><div class="phone-placeholder"><span class="phone-notch"></span><b>02</b><strong>Driver preferences</strong><small>Replace with hourly rate and mileage settings</small></div><figcaption><strong>Personal thresholds</strong><span>Suggested file: app-driver-preferences.png</span></figcaption></figure>
+        <figure class="screenshot-card"><div class="phone-placeholder"><span class="phone-notch"></span><b>03</b><strong>Distance warning</strong><small>Replace with long-distance guard example</small></div><figcaption><strong>Mileage assessment</strong><span>Suggested file: app-distance-warning.png</span></figcaption></figure>
+        <figure class="screenshot-card"><div class="phone-placeholder"><span class="phone-notch"></span><b>04</b><strong>Congestion alert</strong><small>Replace with postcode warning screen</small></div><figcaption><strong>Congestion guidance</strong><span>Suggested file: app-congestion-alert.png</span></figcaption></figure>
+        <figure class="screenshot-card"><div class="phone-placeholder"><span class="phone-notch"></span><b>05</b><strong>Postcode lookup</strong><small>Replace with manual postcode checker</small></div><figcaption><strong>Manual area check</strong><span>Suggested file: app-postcode-lookup.png</span></figcaption></figure>
+        <figure class="screenshot-card"><div class="phone-placeholder"><span class="phone-notch"></span><b>06</b><strong>Memory cards</strong><small>Replace with postcode learning view</small></div><figcaption><strong>Driver learning mode</strong><span>Suggested file: app-memory-cards.png</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section boundaries-section">
+      <div class="boundary-card positive"><p class="eyebrow">What the prototype can do</p><ul><li>Interpret available trip-offer details on Android</li><li>Apply configurable hourly-rate and mileage preferences</li><li>Provide postcode and congestion-area guidance</li><li>Offer clear decision-support categories</li><li>Support manual postcode lookup and memory practice</li><li>Create structured logs for testing and debugging</li></ul></div>
+      <div class="boundary-card caution"><p class="eyebrow">What it cannot do</p><ul><li>Drive a vehicle or monitor road hazards</li><li>Accept, reject or cancel an Uber booking automatically</li><li>Guarantee earnings, journey time or OCR accuracy</li><li>Replace driver judgement, road law or official congestion information</li><li>Operate as an Uber or Transport for London product</li><li>Replace further testing before any public release</li></ul></div>
+    </section>
+
+    <section class="section engineering-section">
+      <div><p class="eyebrow">Engineering focus</p><h2>Built as a real-world testing project</h2></div>
+      <div class="engineering-tags"><span>Flutter</span><span>Dart</span><span>Android Studio</span><span>OCR parsing</span><span>UK postcode validation</span><span>Configurable rules</span><span>Structured logging</span><span>Duplicate suppression</span><span>Automated tests</span><span>Text-to-speech</span></div>
+      <p class="note strong-note">Development status: working personal Android prototype under continued testing and refinement. It is not currently presented as a publicly released commercial product.</p>
+    </section>
+
+    <section class="cta"><div><p class="eyebrow">Project and career enquiries</p><h2>Interested in driver-centred mobility technology?</h2></div><div class="actions"><a class="button primary" href="contact.html">Contact Alkhadi</a><a class="button secondary" href="asset/Alkhadi_Koroma_Autonomous_Vehicle_CV.pdf" download>Download CV</a></div></section>
+  </main>
+
+  <footer><span>© 2026 Alkhadi M. Koroma</span><span>London Driver Intelligence is an independent project</span></footer>
+</body>
+</html>
