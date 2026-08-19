@@ -50,7 +50,9 @@ nav a:hover,nav a.active{background:var(--pale);color:var(--blue)}
 .status-card strong,.status-card span{display:block}
 .status-card span{margin-top:3px;color:#cdd7ec;font-size:.88rem}
 
-.metrics,.product-facts{display:grid;grid-template-columns:repeat(4,1fr);background:var(--navy);color:#fff;padding:30px clamp(24px,7vw,110px);gap:22px}
+.metrics,.product-facts{display:grid;background:var(--navy);color:#fff;padding:30px clamp(24px,7vw,110px);gap:22px}
+.metrics{grid-template-columns:repeat(5,1fr)}
+.product-facts{grid-template-columns:repeat(4,1fr)}
 .metrics article,.product-facts article{border-left:3px solid var(--cyan);padding-left:16px}
 .metrics strong,.metrics span,.product-facts strong,.product-facts span{display:block}
 .metrics strong,.product-facts strong{font-size:1.25rem}
