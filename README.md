@@ -16,7 +16,7 @@ Live site: `https://alkhadi.github.io/html-portfolio/`
 ## Accuracy notes
 
 - Uber / private hire work is described as beginning in late 2016 based on the candidate's current account history. The exact first-trip record has been requested from Uber.
-- Uber trip volume is stated as 15,400+ based on the candidate's current total of approximately 15,433 on 19 August 2026. The rounded figure avoids frequent updates as the live total changes.
+- Uber experience is stated as over 10 years and trip volume as 15,400+, based on the candidate's Uber profile recording 10 years 5 months and approximately 15,433 trips on 19 August 2026. The rounded figures avoid frequent updates as the live totals change.
 - The August 2026 Uber profile capture records more than 6,000 five-star trips and a 4.94 star rating. The acceptance/confirmation rate is deliberately omitted because it is not a useful measure for the target roles and may change frequently.
 - Tesla Model 3 electric-vehicle operation is stated as beginning in 2023, based on the candidate's current professional Uber vehicle use. This is presented as EV operating experience, not autonomous-driving experience.
 - Security work occurred across multiple periods between 2000 and 2022 and totals approximately ten years; it is not presented as one continuous appointment.
